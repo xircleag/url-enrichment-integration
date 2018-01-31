@@ -1,0 +1,17 @@
+{
+  "name": "common",
+  "version": "1.0.0-pre1.0",
+  "description": "URL enrichment common",
+  "dependencies": {
+    "@layerhq/idk": "^1.0.0-pre1.0",
+    "metascraper": "^1.0.7"
+  },
+  "scripts": {
+    "test": "mocha --require should --bail test/*spec.js"
+  },
+  "devDependencies": {
+    "mocha": "^4.1.0",
+    "should": "^13.2.1",
+    "standard": "^10.0.2"
+  }
+}

@@ -1,0 +1,10 @@
+name: 'URL Enrichment Integration'
+provider: azure
+
+webhook:
+  type: post-event
+  events:
+    - Message.created
+
+api:
+  permissions: []

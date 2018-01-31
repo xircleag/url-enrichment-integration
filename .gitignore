@@ -1,0 +1,17 @@
+.DS_Store
+# package directories
+node_modules
+jspm_packages
+npm-debug.log
+
+# Serverless directories
+.serverless
+
+# exclude config files
+layer_config.json
+
+# azure functions files
+azure/functions
+
+# test card scripts
+testCommands

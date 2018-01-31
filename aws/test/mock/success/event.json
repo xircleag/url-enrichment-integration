@@ -1,0 +1,60 @@
+{
+	"event": {
+		"id": "b47e836d-4f17-488f-9147-79e059d83e2d",
+		"type": "Message.created",
+		"created_at": "2017-10-02T22:35:43.502Z"
+	},
+	"actor": {
+		"id": "layer:///identities/852ebdd9-8b9f-4f7c-adcb-4d3ed0acb8cd",
+		"url": "https://api.layer.com/apps/2f1707c0-fd2f-11e6-ae72-c27751092ce1/identities/852ebdd9-8b9f-4f7c-adcb-4d3ed0acb8cd",
+		"user_id": "852ebdd9-8b9f-4f7c-adcb-4d3ed0acb8cd",
+		"display_name": "Arun",
+		"avatar_url": "https://layer.com/wp-content/uploads/2017/06/arun-shankar.png"
+	},
+	"message": {
+		"id": "layer:///messages/b47e836d-4f17-488f-9147-79e059d83e2d",
+		"url": "https://api.layer.com/apps/2f1707c0-fd2f-11e6-ae72-c27751092ce1/conversations/e9dac1de-29e8-4228-a319-e55d596984ed/messages/b47e836d-4f17-488f-9147-79e059d83e2d",
+		"conversation": {
+			"id": "layer:///conversations/e9dac1de-29e8-4228-a319-e55d596984ed",
+			"url": "https://api.layer.com/apps/2f1707c0-fd2f-11e6-ae72-c27751092ce1/conversations/e9dac1de-29e8-4228-a319-e55d596984ed"
+		},
+		"parts": [
+			{
+				"id": "layer:///messages/b47e836d-4f17-488f-9147-79e059d83e2d/parts/91d7fdbd-37f6-4f8f-a30b-e5ffe83bc767",
+				"url": "https://api.layer.com/messages/b47e836d-4f17-488f-9147-79e059d83e2d/parts/91d7fdbd-37f6-4f8f-a30b-e5ffe83bc767",
+				"mime_type": "application/vnd.layer.card.carousel+json;node-id=06bbd359-7c9f-4392-aee1-c958825e53aa;role=root",
+				"body": "{\"action\":{},\"purpose\":\"\",\"custom_data\":{},\"title\":\"\"}"
+			},
+			{
+				"id": "layer:///messages/b47e836d-4f17-488f-9147-79e059d83e2d/parts/1a579f9c-da22-4b4a-8720-faa1dd2f3bd6",
+				"url": "https://api.layer.com/messages/b47e836d-4f17-488f-9147-79e059d83e2d/parts/1a579f9c-da22-4b4a-8720-faa1dd2f3bd6",
+				"mime_type": "application/vnd.layer.card.link+json;node-id=ba27cf4e-3844-47fd-b406-3d2a977d26f0;role=carousel-item;parent-node-id=06bbd359-7c9f-4392-aee1-c958825e53aa",
+				"body": "{\"action\":{},\"purpose\":\"\",\"custom_data\":{},\"url\":\"http://www.cnn.com/2017/07/07/us/sc-prison-escape-drone/index.html\"}"
+			},
+			{
+				"id": "layer:///messages/b47e836d-4f17-488f-9147-79e059d83e2d/parts/b1235c1e-ae46-480e-95b9-8d96932f4e45",
+				"url": "https://api.layer.com/messages/b47e836d-4f17-488f-9147-79e059d83e2d/parts/b1235c1e-ae46-480e-95b9-8d96932f4e45",
+				"mime_type": "application/vnd.layer.card.link+json;node-id=417bb1e8-b5eb-4314-ae95-c8389ae033c0;role=carousel-item;parent-node-id=06bbd359-7c9f-4392-aee1-c958825e53aa",
+				"body": "{\"action\":{},\"purpose\":\"\",\"custom_data\":{},\"url\":\"https://github.com/layerhq/layer-websdk\"}"
+			}
+		],
+		"sent_at": "2017-10-02T22:35:43.502Z",
+		"sender": {
+			"id": "layer:///identities/852ebdd9-8b9f-4f7c-adcb-4d3ed0acb8cd",
+			"url": "https://api.layer.com/apps/2f1707c0-fd2f-11e6-ae72-c27751092ce1/identities/852ebdd9-8b9f-4f7c-adcb-4d3ed0acb8cd",
+			"user_id": "852ebdd9-8b9f-4f7c-adcb-4d3ed0acb8cd",
+			"display_name": "Arun",
+			"avatar_url": "https://layer.com/wp-content/uploads/2017/06/arun-shankar.png"
+		},
+		"recipient_status": {
+			"layer:///identities/f5764172-ffbc-4469-836f-170ee7e2058b": "sent",
+			"layer:///identities/852ebdd9-8b9f-4f7c-adcb-4d3ed0acb8cd": "read",
+			"layer:///identities/174fe653-85a1-4667-b166-9c35c1caa0b7": "sent",
+			"layer:///identities/24f62059-af18-4569-8fb0-2d372f9582e8": "sent",
+			"layer:///identities/ebc88b1c-03df-47b1-b0bf-8e5320ab3bc0": "sent",
+			"layer:///identities/328bc48d-da95-4b2b-bbdf-5141cee79eb0": "sent",
+			"layer:///identities/2f2edad9-f0f0-4a00-ab4a-ca9d1a2a939c": "sent"
+		},
+		"position": 33201437409280
+	}
+}

@@ -1,0 +1,41 @@
+service: serverless-url-enrichment-azure
+provider:
+  name: azure
+  location: West US
+
+plugins:
+  - serverless-azure-functions
+  - serverless-mocha-plugin
+
+package:
+  exclude:
+    - .gitignore
+    - package.json
+    - README.md
+    - .git/**
+
+functions:
+  webhook:
+    handler: dist/bundle.webhook
+    events:
+      - http: true
+        x-azure-settings:
+          methods:
+            - POST
+          route: webhook
+          authLevel: anonymous
+  verify:
+    handler: dist/bundle.verify
+    description: 'Webhook verification endpoint'
+    events:
+      - http: true
+        x-azure-settings:
+          methods:
+            - GET
+          route: webhook
+          authLevel: anonymous
+      - http: true
+        x-azure-settings:
+          type: http
+          direction: out
+          name: res

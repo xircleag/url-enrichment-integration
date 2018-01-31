@@ -1,0 +1,17 @@
+{
+  "name": "serverless-url-enrichment-aws",
+  "version": "1.0.0-pre1.0",
+  "scripts": {
+    "deploy": "npm install; npm run package; serverless deploy",
+    "test": "LAYER_CONFIG=../test/mock/layer_config_test.json LOG_LEVEL=none sls invoke test"
+  },
+  "dependencies": {
+    "@layerhq/idk": "^1.0.0-pre1.0",
+    "common": "file:./common/"
+  },
+  "devDependencies": {
+    "proxyquire": "^1.8.0",
+    "serverless-mocha-plugin": "^1.7.0",
+    "standard": "^10.0.2"
+  }
+}
