@@ -1,9 +1,9 @@
 {
   "name": "common",
-  "version": "1.0.0-pre1.0",
+  "version": "1.0.0",
   "description": "URL enrichment common",
   "dependencies": {
-    "@layerhq/idk": "^1.0.0-pre1.0",
+    "@layerhq/idk": "^1.0.0",
     "metascraper": "^1.0.7"
   },
   "scripts": {

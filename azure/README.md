@@ -1,6 +1,6 @@
 # URL Enrichment Integration
 
-URL Enrichment Integration, built using the Layer [Integration Development Kit](https://preview-docs.layer.com/reference/integrations/framework).
+URL Enrichment Integration, built using the Layer [Integration Development Kit](https://docs.layer.com/reference/integrations/framework).
 
 ## Microsoft Azure
 
